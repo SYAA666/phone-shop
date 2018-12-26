@@ -1,6 +1,6 @@
 export class Item {
-    public name: string;
-    public comment: string;
-    public cost: number;
-    public image: string;
+    name: string;
+    comment: string;
+    cost: number;
+    image: string;
 }

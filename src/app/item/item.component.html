@@ -1,16 +1,12 @@
-<div class="col s12 m7">
-  <h2 class="header">{{itemData.name}}</h2>
-  <div class="card horizontal">
+  <div class="card">
     <div class="card-image">
-      <img src={{itemData.image}}>
+      <img class="images" src={{itemData.image}}>
+      <span class="card-title">{{itemData.name}}</span>
     </div>
-    <div class="card-stacked">
-      <div class="card-content">
-        <p>{{itemData.comment}}</p>
-      </div>
-      <div class="card-action">
-        <a href="#">This is a link</a>
-      </div>
+    <div class="card-content">
+      <p>{{itemData.comment}}</p>
+    </div>
+    <div class="card-action">
+      <a href="#">This is a link</a>
     </div>
   </div>
-</div>
