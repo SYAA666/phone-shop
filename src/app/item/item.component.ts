@@ -7,11 +7,8 @@ import { Item } from './itemClass';
   styleUrls: ['./item.component.scss']
 })
 export class ItemComponent implements OnInit {
-
   constructor() { }
-
+  @Input() itemData;
   ngOnInit() {
   }
-
-  @Input() itemData;
 }
